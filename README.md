@@ -1,5 +1,5 @@
 # Student_Marks_Prediction
-**Project Title: Student Marks Prediction Using Linear Regression**
+**Project Title: Marks Estimator Based on Study Hours Using Linear Regression**
 
 **1. Project Overview:** 
 This project builds a machine learning model using linear regression to predict students' exam marks based on the number of hours they study. The model is trained using historical data of student study hours and corresponding marks, and then used to predict marks for new study durations. The project also includes data visualization, model performance evaluation, and saving/loading the model for future use. 
