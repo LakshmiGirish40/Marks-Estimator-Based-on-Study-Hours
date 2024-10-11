@@ -9,7 +9,7 @@ from sklearn.metrics import mean_squared_error
 # Load the saved model
 # Load the model
 model = joblib.load("student_mark_predictor.pkl")
-data = pd.read_csv(r'D:\Data_Science&AI\Spyder\Student_Marks_prediction\student_info.csv')
+data = pd.read_csv('student_info.csv')
 student_data_predicted = pd.read_csv("D:\Data_Science&AI\Spyder\Student_Marks_prediction\student_data_prediction.csv")
 #student_data = pd.read_(r"D:\Data_Science&AI\Spyder\Student_Marks_prediction\Student_marks.py")
 # Load the saved linear regression model
