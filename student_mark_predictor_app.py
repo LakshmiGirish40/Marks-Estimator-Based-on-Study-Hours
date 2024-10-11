@@ -17,15 +17,15 @@ student_data_predicted = pd.read_csv('student_data_prediction.csv')
 import streamlit as st
 import base64
 #base64 is used for encoding binary data to ASCII characters.
-
-def get_base64(bin_file):   #Reads the binary file (bin_file) in binary mode ('rb').
-    with open(bin_file, 'rb') as f:
-        data = f.read()
-    return base64.b64encode(data).decode()
+ #Reads the binary file (bin_file) in binary mode ('rb').
+def get_base64_image(image_path):
+    with open(image_path, "rb") as image_file:
+    encoded_string = base64.b64encode(image_file.read()).decode()
+    return encoded_string
 
 def set_background(png_file):
-    bin_str = get_base64(png_file)
-    page_bg_img = '''
+    bin_str = get_base64(image_base64)
+    page_bg_img = f'''
     <style>
     .stApp {
     background-image: url("data:image/png;base64,%s");
