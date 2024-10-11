@@ -14,8 +14,8 @@ This project builds a machine learning model using linear regression to predict 
 **3. Project Workflow:** 
    - **Step 1: Data Collection**
      - The dataset used in this project is assumed to be in CSV format, where it contains two columns: 
- - **study hours:**  Number of hours studied. 
-- **student marks:**  Corresponding marks obtained by students. 
+    - **study hours:**  Number of hours studied. 
+     - **student marks:**  Corresponding marks obtained by students. 
    -  **Step 2: Data Preprocessing**
     - **Data Exploration:** Display the first few rows, descriptive statistics, and check for null values. 
    - **Handling Missing Values:** If there are missing values in the dataset, they are filled using the mean value of the respective column. 
