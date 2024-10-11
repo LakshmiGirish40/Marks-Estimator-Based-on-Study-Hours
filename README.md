@@ -33,8 +33,8 @@ This project builds a machine learning model using linear regression to predict 
     -  The model's performance is evaluated using the mean_squared_error function from scikit-learn.
     -  The predicted values for the test set are compared against the actual marks. 
 
-- -  **Step 6: Prediction** 
-- After training, the model is used to predict the marks for a student who studies for a certain number of hours, such as 4 or 8 hours. 
+ -   **Step 6: Prediction** 
+   - After training, the model is used to predict the marks for a student who studies for a certain number of hours, such as 4 or 8 hours. 
   - **Step 7: Model Deployment (Optional)**
     - The trained model is saved using joblib, allowing future predictions without retraining the model.
     - The model is then loaded for making predictions on new data. 
