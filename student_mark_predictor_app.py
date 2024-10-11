@@ -30,6 +30,12 @@ def set_background(png_file):
     background-image: url("data:image/png;base64,%s");
     background-size: cover;
     }
+      .css-1g8v9l0 {{
+        background: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center; /* Centering the text */
+    }}
     </style>
     ''' % bin_str
     st.markdown(page_bg_img, unsafe_allow_html=True)
