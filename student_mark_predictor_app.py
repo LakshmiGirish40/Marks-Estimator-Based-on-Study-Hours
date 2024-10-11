@@ -37,7 +37,7 @@ def set_background(png_file):
 
 set_background('./src/static/img/background.png')
 # Call the function with the uploaded background image
-image_base64 = get_base64_image("image3.jpg")
+image_base64 = get_base64_image("image1.jpg")
 set_background(image_base64)
 
 #======================================================
