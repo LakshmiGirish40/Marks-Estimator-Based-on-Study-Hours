@@ -20,8 +20,8 @@ import base64
  #Reads the binary file (bin_file) in binary mode ('rb').
 def get_base64_image(image_path):
     with open(image_path, "rb") as image_file:
-    encoded_string = base64.b64encode(image_file.read()).decode()
-    return encoded_string
+     encoded_string = base64.b64encode(image_file.read()).decode()
+     return encoded_string
 
 def set_background(png_file):
     bin_str = get_base64(image_base64)
