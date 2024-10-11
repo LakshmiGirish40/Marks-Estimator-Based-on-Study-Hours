@@ -35,7 +35,7 @@ def set_background(png_file):
     st.markdown(page_bg_img, unsafe_allow_html=True)
 
 # Correctly call the function with the actual file path
-set_background('./src/static/img/background.png')
+set_background('image1.jpg')
 
 
 #======================================================
