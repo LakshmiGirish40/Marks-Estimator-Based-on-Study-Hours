@@ -16,8 +16,9 @@ student_data_predicted = pd.read_csv('student_data_prediction.csv')
 #=============================================================================
 import streamlit as st
 import base64
+#base64 is used for encoding binary data to ASCII characters.
 
-def get_base64(bin_file):
+def get_base64(bin_file):   #Reads the binary file (bin_file) in binary mode ('rb').
     with open(bin_file, 'rb') as f:
         data = f.read()
     return base64.b64encode(data).decode()
@@ -35,6 +36,10 @@ def set_background(png_file):
     st.markdown(page_bg_img, unsafe_allow_html=True)
 
 set_background('./src/static/img/background.png')
+# Call the function with the uploaded background image
+image_base64 = get_base64_image("image3.jpg")
+set_background(image_base64)
+
 #======================================================
 
 st.title("Student Marks Prediction App")
