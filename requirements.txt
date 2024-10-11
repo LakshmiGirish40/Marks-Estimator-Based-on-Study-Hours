@@ -5,5 +5,7 @@ matplotlib
 seaborn
 joblib
 scikit-learn
+pip install plotly
+plotly
 
 
