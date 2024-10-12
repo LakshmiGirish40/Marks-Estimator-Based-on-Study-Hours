@@ -88,8 +88,8 @@ st.write('<h6 style="color:white;">The model was trained using a dataset of stud
 #st.write("The model was trained using a dataset of student marks and hours of study.")
 #==================================================================
 
-st.write("<h4 style='text-align: left; color:Red;'>Visualization</h4>", unsafe_allow_html=True) 
-st.write("<h5 style='text-align: left; color:green;'>Original_Data</h5>", unsafe_allow_html=True) 
+st.write("<h4 style='text-align: left; color:white;'>Visualization</h4>", unsafe_allow_html=True) 
+st.write("<h5 style='text-align: left; color:white;'>Original_Data</h5>", unsafe_allow_html=True) 
 fig = plt.scatter(x=data['study_hours'],y=data['student_marks'])
 plt.xlabel("Student study hours")
 plt.ylabel("Student marks")
@@ -97,26 +97,26 @@ plt.title("Scatter plot of Student study hours VS Student_marks")
 plt.show()
 
 st.scatter_chart(data)
-st.write("<h5 style='text-align: left; color:green;'>Scatter_Chart(Student_mark Vs Study_hours Vs Student_marks_predicttion)</h5>", unsafe_allow_html=True) 
+st.write("<h5 style='text-align: left; color:white;'>Scatter_Chart(Student_mark Vs Study_hours Vs Student_marks_predicttion)</h5>", unsafe_allow_html=True) 
 st.scatter_chart(student_data_predicted,x ='study_hours',y='student_marks_predicted',color="#04f")
-st.write("<h5 style='text-align: left; color:green;'>Bar_Chart(Student_mark Vs Study_hours Vs Student_marks_predicttion)</h5>", unsafe_allow_html=True) 
+st.write("<h5 style='text-align: left; color:white;'>Bar_Chart(Student_mark Vs Study_hours Vs Student_marks_predicttion)</h5>", unsafe_allow_html=True) 
 st.bar_chart(student_data_predicted)
-st.write("<h5 style='text-align: left; color:green;'>line_Chart(Student_mark Vs Study_hours Vs Student_marks_predicttion)</h5>", unsafe_allow_html=True) 
+st.write("<h5 style='text-align: left; color:white;'>line_Chart(Student_mark Vs Study_hours Vs Student_marks_predicttion)</h5>", unsafe_allow_html=True) 
 st.line_chart(student_data_predicted)
 
 st.bar_chart(student_data_predicted )
-st.write("<h5 style='text-align: left; color:red;'>Original_DataSet</h5>", unsafe_allow_html=True) 
+st.write("<h5 style='text-align: left; color:white;'>Original_DataSet</h5>", unsafe_allow_html=True) 
 st.write(pd.DataFrame(data))
 st.write("<h5 style='text-align: left; color:red;'>Predicton DataSet</h5>", unsafe_allow_html=True) 
 st.write(pd.DataFrame(student_data_predicted))
 
 
 st.bar_chart(student_data_predicted)
-st.write("<h5 style='text-align: left; color:red;'>Study_hours Vs Student_marks_predicted </h5>", unsafe_allow_html=True) 
+st.write("<h5 style='text-align: left; color:white;'>Study_hours Vs Student_marks_predicted </h5>", unsafe_allow_html=True) 
 st.bar_chart(student_data_predicted,x ='study_hours',y='student_marks_predicted')
 
 # Write the custom HTML header
-st.write("<h5 style='text-align: left; color:red;'>Study_hours Vs Student_marks_predicted</h5>", unsafe_allow_html=True) 
+st.write("<h5 style='text-align: left; color:white;'>Study_hours Vs Student_marks_predicted</h5>", unsafe_allow_html=True) 
 
 import plotly.express as px
 # Create a bar chart with Plotly
