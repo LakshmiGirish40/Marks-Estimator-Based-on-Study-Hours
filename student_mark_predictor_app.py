@@ -89,7 +89,7 @@ st.write('<h6 style="color:white;">The model was trained using a dataset of stud
 #==================================================================
 
 st.write("<h4 style='text-align: left; color:Red;'>Visualization</h4>", unsafe_allow_html=True) 
-st.write("<h5 style='text-align: left; color:light blue;'>Original_Data</h5>", unsafe_allow_html=True) 
+st.write("<h5 style='text-align: left; color:green;'>Original_Data</h5>", unsafe_allow_html=True) 
 fig = plt.scatter(x=data['study_hours'],y=data['student_marks'])
 plt.xlabel("Student study hours")
 plt.ylabel("Student marks")
