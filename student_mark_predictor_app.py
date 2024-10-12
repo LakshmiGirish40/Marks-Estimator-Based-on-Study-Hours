@@ -83,7 +83,8 @@ hours = st.number_input("", min_value=1.0, max_value=24.0, step=1.0)
 if st.button('Predict Marks'):
     marks = np.array([[hours]])  # Ensure it's a 2D array
     prediction = model.predict(marks)
-    st.write(f"The predicted marks for {hours} of study: {prediction}") 
+    st.write(f'<p style="color:green;">The predicted marks for {hours} hours of study: {prediction}</p>', unsafe_allow_html=True)
+    #st.write(f"The predicted marks for {hours} of study: {prediction}") 
 st.write('<h6 style="color:white;">The model was trained using a dataset of student marks and hours of study.</h6>', unsafe_allow_html=True)
 #st.write("The model was trained using a dataset of student marks and hours of study.")
 #==================================================================
