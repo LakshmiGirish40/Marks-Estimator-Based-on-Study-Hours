@@ -31,7 +31,7 @@ def set_background(png_file):
     background-size: cover;
     }
       .css-1g8v9l0 {{
-        background: rgba(255, 255, 255, 0.8);
+        background: rgb(77, 139, 242);
         padding: 20px;
         border-radius: 10px;
         text-align: center; /* Centering the text */
