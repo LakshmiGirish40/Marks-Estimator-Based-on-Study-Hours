@@ -70,8 +70,9 @@ set_background('image3.jpg')
 
 #======================================================
 
-st.title("Student Marks Prediction App")
-st.write("<h5 style='text-align: left;color:'red'>Predict student marks based on the number of hours they study in a day.</h5>", unsafe_allow_html=True) 
+#st.title("Student Marks Prediction App")
+st.title("<h5 style='text-align: left;color:'Red'>"Student Marks Prediction App"</h5>", unsafe_allow_html=True)
+st.write("<h5 style='text-align: left;color:'Red'>Predict student marks based on the number of hours they study in a day.</h5>", unsafe_allow_html=True) 
 
 # Add input widget for user to enter hours of study
 hours = st.number_input("Enter how many hours the student studies:", min_value=1.0, max_value=24.0, step=1.0)
