@@ -107,7 +107,7 @@ st.line_chart(student_data_predicted)
 st.bar_chart(student_data_predicted )
 st.write("<h5 style='text-align: left; color:white;'>Original_DataSet</h5>", unsafe_allow_html=True) 
 st.write(pd.DataFrame(data))
-st.write("<h5 style='text-align: left; color:red;'>Predicton DataSet</h5>", unsafe_allow_html=True) 
+st.write("<h5 style='text-align: left; color:white;'>Predicton DataSet</h5>", unsafe_allow_html=True) 
 st.write(pd.DataFrame(student_data_predicted))
 
 
