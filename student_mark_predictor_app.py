@@ -71,11 +71,14 @@ set_background('image3.jpg')
 #======================================================
 
 #st.title("Student Marks Prediction App")
-st.markdown("<h2 style='text-align: left; color:Red'>Student Marks Prediction App</h2>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: left; color:White'>Student Marks Prediction App</h2>", unsafe_allow_html=True)
 st.markdown("<h4 style='text-align: left; color:White'>Predict student marks based on the number of hours they study in a day.</h4>", unsafe_allow_html=True) 
 
 # Add input widget for user to enter hours of study
-hours = st.number_input("Enter how many hours the student studies:", min_value=1.0, max_value=24.0, step=1.0)
+#hours = st.number_input("Enter how many hours the student studies:", min_value=1.0, max_value=24.0, step=1.0)
+st.markdown('<p style="color:white;">Enter how many hours the student studies:</p>', unsafe_allow_html=True)
+hours = st.number_input("", min_value=1.0, max_value=24.0, step=1.0)
+
 
 if st.button('Predict Marks'):
     marks = np.array([[hours]])  # Ensure it's a 2D array
