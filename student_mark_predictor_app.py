@@ -84,7 +84,8 @@ if st.button('Predict Marks'):
     marks = np.array([[hours]])  # Ensure it's a 2D array
     prediction = model.predict(marks)
     st.write(f"The predicted marks for {hours} of study: {prediction}") 
-st.write("The model was trained using a dataset of student marks and hours of study.")
+st.write('<h6 style="color:white;">The model was trained using a dataset of student marks and hours of study.</h6>', unsafe_allow_html=True)
+#st.write("The model was trained using a dataset of student marks and hours of study.")
 #==================================================================
 
 st.write("<h4 style='text-align: left; color:Red;'>Visualization</h4>", unsafe_allow_html=True) 
