@@ -57,7 +57,7 @@ This project builds a machine learning model using linear regression to predict 
 **7. Conclusion:**
 This project successfully demonstrates how to apply linear regression to predict student marks based on the hours they study. By using machine learning techniques and data visualization, the project provides valuable insights into academic performance trends and allows students to estimate their potential exam scores based on their study habits. 
 
-for output view: https://studentmarksprediction-twx6hqnvxm4adktq9zqfdr.streamlit.app/
+for output view: https://marks-estimator-based-on-study-hours.streamlit.app/
 
  
 
