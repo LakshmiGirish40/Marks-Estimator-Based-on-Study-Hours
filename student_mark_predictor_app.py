@@ -26,6 +26,22 @@ def set_background(png_file):
     bin_str = get_base64(png_file)
     page_bg_img = '''
     <style>
+    .stApp {{
+        background: url("data:image/png;base64,{image_base64}");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: white;
+    }}
+    .css-1g8v9l0 {{
+        background: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center; /* Centering the text */
+    }}
+    h1, h2, h3, h4, h5, h6, p, span, div, label {{
+        color: white;
+    }}
     .stApp {
     background-image: url("data:image/png;base64,%s");
     background-size: cover;
