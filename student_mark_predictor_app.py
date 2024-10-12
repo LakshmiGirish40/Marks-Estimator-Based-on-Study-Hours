@@ -77,6 +77,7 @@ st.markdown("<h4 style='text-align: left; color:White'>Predict student marks bas
 # Add input widget for user to enter hours of study
 #hours = st.number_input("Enter how many hours the student studies:", min_value=1.0, max_value=24.0, step=1.0)
 st.markdown('<p style="color:white;">Enter how many hours the student studies:</p>', unsafe_allow_html=True)
+st.subheader("Enter how many hours the student studies:", divider=True)
 hours = st.number_input("", min_value=1.0, max_value=24.0, step=1.0)
 
 
