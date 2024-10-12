@@ -30,7 +30,20 @@ def set_background(png_file):
     background-image: url("data:image/png;base64,%s");
     background-size: cover;
     }
-    
+     .stButton > button {{
+        background-color: #4C4C6D;
+        color: white;
+        border-radius: 10px;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+    }}
+    .stButton > button:hover {{
+        background-color: #6A5ACD;
+    }}
+    .stSlider > div {{
+        background-color: transparent;
+    }}
     </style>
     ''' % bin_str
     st.markdown(page_bg_img, unsafe_allow_html=True)
