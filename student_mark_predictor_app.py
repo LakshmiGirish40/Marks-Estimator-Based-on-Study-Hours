@@ -71,7 +71,7 @@ set_background('image3.jpg')
 #======================================================
 
 #st.title("Student Marks Prediction App")
-st.title("<h5 style='text-align: left;color:'Red'>"Student Marks Prediction App"</h5>", unsafe_allow_html=True)
+st.title("<h5 style='text-align: left;color:'Red'>Student Marks Prediction App</h5>", unsafe_allow_html=True)
 st.write("<h5 style='text-align: left;color:'Red'>Predict student marks based on the number of hours they study in a day.</h5>", unsafe_allow_html=True) 
 
 # Add input widget for user to enter hours of study
