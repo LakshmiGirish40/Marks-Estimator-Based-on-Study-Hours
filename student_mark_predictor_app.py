@@ -36,7 +36,7 @@ def set_background(png_file):
     st.markdown(page_bg_img, unsafe_allow_html=True)
 
 # Correctly call the function with the actual file path
-set_background('image3.jpg')
+set_background('image1.jpg')
 
 
 #======================================================
@@ -87,7 +87,7 @@ st.write("<h5 style='text-align: left; color:red;'>Study_hours Vs Student_marks_
 import plotly.express as px
 # Create a bar chart with Plotly
 fig = px.bar(student_data_predicted , x='study_hours', y='student_marks_predicted', color='student_marks_predicted',
-             color_continuous_scale='Plasma', title='')
+             color_continuous_scale='Plasma', title='plotly Graph for study_hours vs student_marks_predicted')
 
 # Update layout for cleaner look
 fig.update_layout(xaxis_title='Study Hours', yaxis_title='Predicted Marks')
