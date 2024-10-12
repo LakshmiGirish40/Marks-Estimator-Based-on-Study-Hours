@@ -51,7 +51,7 @@ def set_background(png_file):
         color: white;
         border-radius: 10px;
         border: none;
-        padding: 10px 20px;
+        padding: 5px 10px;
         font-size: 16px;
     }}
     .stButton > button:hover {{
