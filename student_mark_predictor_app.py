@@ -30,11 +30,11 @@ def set_background(png_file):
         background: url("data:image/png;base64,{image_base64}");
         background-size: cover;
         background-position: center;
-        background-repeat: no-repeat;
+        background-repeat: repeat;
         color: white;
     }}
     .css-1g8v9l0 {{
-        background: rgba(255, 255, 255, 0.8);
+        background: rgba(255, 252, 253, 0.4);
         padding: 20px;
         border-radius: 10px;
         text-align: center; /* Centering the text */
